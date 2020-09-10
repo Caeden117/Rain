@@ -3,7 +3,7 @@ Data files and scripts related to my Beat Saber map, Rain.
 
 You can download the level here: *link still coming lmao*
 
-See a video of the level here: *link still coming lmao*
+See a video of the level [here](https://youtu.be/a4h04wDuB64).
 
 [Rain](https://www.youtube.com/watch?v=yWh9l8RSkPk) is a song by Martin O'Donnell and Michael Salvatori for the game *Halo 3: ODST*. I've created a Beat Saber map for this song for the Noodle Games Volume 2 map pack, using mods such as [Noodle Extensions](https://github.com/Aeroluna/NoodleExtensions) and [Chroma](https://github.com/Aeroluna/Chroma/) to put a heavy emphasis on the atmosphere, achieving a feeling of walking the streets of New Mombasa.
 
