@@ -1,7 +1,7 @@
 # Rain
 Data files and scripts related to my Beat Saber map, Rain.
 
-You can download the level here: *link still coming lmao*
+You can download the level [here](https://beatsaver.com/beatmap/e7c7).
 
 See a video of the level [here](https://youtu.be/a4h04wDuB64).
 
