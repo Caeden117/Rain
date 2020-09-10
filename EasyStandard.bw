@@ -1,0 +1,90 @@
+# Rain (from Halo 3: ODST) by Martin O'Donnell and Michael Salvatori
+# Map by Caeden117
+# Source is releasd under the MIT License.
+
+##################
+### INTERFACES ###
+##################
+# Quick recap: Interfaces are just to make things reusable, so various Wall Structures (see below) can inherit these interfaces the properties contained within them.
+
+# Rain drop.
+interface rain
+	rotationX = random(-65, -85)
+	width = 0.05
+	height = 0.05
+	color = 174, 194, 224
+	duration = random(0.05, 0.25)
+	noteJumpMovementSpeed = 20
+	noteJumpMovementSpeedOffset = -1
+
+# Rain cloud. 
+interface cloud
+	width = random(7, 15)
+	height = random(1, 5)
+	duration = random(10, 15)
+	color = 48, 48, 48
+	noteJumpMovementSpeed = 20
+	noteJumpMovementSpeedOffset = -1
+
+#######################
+### WALL STRUCTURES ###
+#######################
+
+### Rolling Thunder ###
+
+97 RandomNoise : rain
+	amount = 2000
+	p1 = -15, -45, 0
+	p2 = 15, 15, 55
+	
+97 RandomNoise : cloud
+	amount = 150
+	p1 = -30, 10, 0
+	p2 = 15, 20, 50
+	
+# Rain fade out
+152 RandomNoise : rain
+	amount = 40
+	p1 = -15, -45, 0
+	p2 = 15, 15, 2
+	
+154 RandomNoise : rain
+	amount = 20
+	p1 = -15, -45, 0
+	p2 = 15, 15, 3
+	
+### ...And the Horse You Rode In On ###
+
+# Because this part has the buildings on the sides, we can save performance by cutting down the amount of walls and squeezing our points closer together.
+208 RandomNoise : rain
+	amount = 750
+	p1 = -5, -45, 0
+	p2 = 5, 15, 55
+
+208 RandomNoise : cloud 
+	amount = 50
+	p1 = -15, 10, 0
+	p2 = 5, 20, 50
+	
+# Rain fade out
+263 RandomNoise : rain
+	amount = 10
+	p1 = -5, -45, 0
+	p2 = 5, 15, 1
+	
+264 RandomNoise : rain
+	amount = 7
+	p1 = -5, -45, 0
+	p2 = 5, 15, 1
+
+265 RandomNoise : rain
+	amount = 5
+	p1 = -5, -45, 0
+	p2 = 5, 15, 1	
+	
+266 RandomNoise : rain
+	amount = 3
+	p1 = -5, -45, 0
+	p2 = 5, 15, 1	
+	
+	
